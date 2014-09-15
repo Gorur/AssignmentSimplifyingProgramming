@@ -1,0 +1,11 @@
+Name: Srilakshmi Gorur
+USN: 1PI12IS134
+Question number: 4
+Question title:Consider a share market bazaar where the value of stocks keep going up and down. Write a
+program that asks for a company’s name and it’s share’s cost.
+Source code file: asn2_4.c and trying.c
+Thought: The idea was to implement a code that searches for a company name, if it exists then the share value must be changed and if the company name is not found then the code must append the company name and share value to the file.
+Execution: asn2_4.c-The code actually appends the company name with share value.
+	   trying.c-The code is trying to search the company name in the file.
+Tried to combined the 2 logics but didn't work out.  
+Bugs: The second code runs into an infinte loop.Not able to stop looping forever, tried all possible combinations.
